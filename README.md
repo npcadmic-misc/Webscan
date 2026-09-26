@@ -37,7 +37,7 @@
 
 - Python 3.8+
 - Node.js 16+
-- Windows/Linux/macOS
+- Windows
 
 ### 手动安装步骤
 
@@ -45,7 +45,7 @@
 
 ```bash
 git clone <repository-url>
-cd 新测试
+cd ./
 ```
 
 #### 2. 安装后端依赖
@@ -85,7 +85,7 @@ python cli.py
 ## 项目结构
 
 ```
-新测试/
+/
 ├── backend/              # Python后端
 │   ├── app/             # 应用代码
 │   │   ├── main.py      # FastAPI入口
