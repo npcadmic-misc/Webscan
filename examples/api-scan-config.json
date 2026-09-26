@@ -1,0 +1,17 @@
+{
+  "name": "API扫描配置示例",
+  "description": "针对REST API和GraphQL接口的安全扫描",
+  "target_url": "https://api.example.com",
+  "scan_types": ["api"],
+  "auth_config": {
+    "type": "bearer",
+    "value": "your_jwt_token_here"
+  },
+  "max_concurrency": 15,
+  "rate_limit": 80,
+  "timeout": 20,
+  "max_depth": 5,
+  "excluded_paths": [],
+  "custom_payloads": [],
+  "report_format": "markdown"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "快速扫描配置示例",
+  "description": "针对Web应用的快速安全检查，仅检测常见漏洞",
+  "target_url": "https://example.com",
+  "scan_types": ["basic"],
+  "auth_config": null,
+  "max_concurrency": 20,
+  "rate_limit": 100,
+  "timeout": 15,
+  "max_depth": 3,
+  "excluded_paths": [],
+  "custom_payloads": [],
+  "report_format": "html"
+}
