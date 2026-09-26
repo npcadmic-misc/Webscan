@@ -4,7 +4,7 @@
 
 格式基于 [Keep a Changelog](https://keepachangelog.com/)，版本遵循 [语义化版本](https://semver.org/)。
 
-## [1.0.0] - 2024-01-01
+## [1.0.0] - 2026-09-25
 
 ### Added
 - 初始版本发布
